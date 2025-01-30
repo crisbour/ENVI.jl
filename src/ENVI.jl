@@ -1,6 +1,7 @@
 # modeled after code found in spectral (SPy)
 # https://github.com/spectralpython/spectral/blob/master/spectral/io/envi.py
 
+__precompile__()
 
 module ENVI
 using HDF5
